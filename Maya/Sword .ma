@@ -1,6 +1,6 @@
 //Maya ASCII 2017ff04 scene
 //Name: Sword .ma
-//Last modified: Thu, Jan 25, 2018 12:13:22 AM
+//Last modified: Thu, Jan 25, 2018 12:37:29 AM
 //Codeset: 1252
 requires maya "2017ff04";
 currentUnit -l centimeter -a degree -t film;
@@ -13,8 +13,8 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "CDE9A95D-4ECF-AF98-FBFA-9581D6EC4105";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 4.240236296245957 34.932784112847749 7.5557595326710594 ;
-	setAttr ".r" -type "double3" -69.938352728615826 750.19999999997663 -1.8400135433042096e-015 ;
+	setAttr ".t" -type "double3" 6.3060612060689518 35.826404117967456 0.91004253515285694 ;
+	setAttr ".r" -type "double3" -75.338352728605372 789.79999999990866 -9.2110375631099866e-015 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "7C9A4CC9-4E84-4C38-A13D-699D030CA652";
 	setAttr -k off ".v" no;
